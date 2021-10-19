@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace PDCUtilities
+namespace PDCUtility
 {
     public class DirectoryHelper
     {

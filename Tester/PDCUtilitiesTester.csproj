@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\PDCUtilities\PDCUtilities.csproj" />
+    <ProjectReference Include="..\PDCUtilities\PDCUtility.csproj" />
   </ItemGroup>
 
 </Project>

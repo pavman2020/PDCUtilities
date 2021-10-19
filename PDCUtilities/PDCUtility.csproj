@@ -7,8 +7,8 @@
     <ProjectGuid>{026C0D84-B125-4A23-BE9B-DD89A29076E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PAMPUtility</RootNamespace>
-    <AssemblyName>PAMPUtility</AssemblyName>
+    <RootNamespace>PDCUtility</RootNamespace>
+    <AssemblyName>PDCUtility</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -66,10 +66,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationHelper.cs" />
+    <Compile Include="Bitmap.cs" />
     <Compile Include="ClassHelper.cs" />
+    <Compile Include="Comparer.cs" />
     <Compile Include="DirectoryHelper.cs" />
     <Compile Include="BuildDateTimeUtility.cs" />
+    <Compile Include="EnumerationsHelper.cs" />
+    <Compile Include="FontSerializationHelper.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="NetworkUtility.cs" />
+    <Compile Include="PatternMatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignificantFigures.cs" />
+    <Compile Include="Sorting.cs" />
+    <Compile Include="StackTraceHelper.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="SystemTime.cs" />
+    <Compile Include="TimeoutAction.cs" />
+    <Compile Include="TypeConverters.cs" />
+    <Compile Include="XMLHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

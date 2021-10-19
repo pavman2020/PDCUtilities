@@ -6,7 +6,7 @@ using System.Reflection;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace PDCUtilities
+namespace PDCUtility
 {
     public class BuildDateTimeUtility
     {

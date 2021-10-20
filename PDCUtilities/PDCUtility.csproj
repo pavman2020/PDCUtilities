@@ -80,6 +80,7 @@
     <Compile Include="EventQueue\FIFOQueue\_TaskThread.cs" />
     <Compile Include="ExecutionHelper.cs" />
     <Compile Include="FontSerializationHelper.cs" />
+    <Compile Include="FractionConverter.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="NetworkUtility.cs" />
     <Compile Include="PatternMatch.cs" />

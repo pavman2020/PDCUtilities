@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDCUtilitiesTester", "C:\GIT\PDCUtilities\Tester\PDCUtilitiesTester.csproj", "{981DD3B1-7DC4-4431-9259-CB126468C599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDCUtilitiesTester", "Tester\PDCUtilitiesTester.csproj", "{981DD3B1-7DC4-4431-9259-CB126468C599}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDCUtility", "PDCUtilities\PDCUtility.csproj", "{026C0D84-B125-4A23-BE9B-DD89A29076E6}"
 EndProject

@@ -10,7 +10,6 @@ namespace PDCUtility
 {
     public class ApplicationHelper
     {
-#if false
 
         public delegate void LogAppPropertyDelegate(string str);
 
@@ -51,7 +50,7 @@ namespace PDCUtility
             }
             catch { }
         }
-#endif
+
 
     }
 }

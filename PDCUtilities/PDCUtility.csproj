@@ -72,6 +72,13 @@
     <Compile Include="DirectoryHelper.cs" />
     <Compile Include="BuildDateTimeUtility.cs" />
     <Compile Include="EnumerationsHelper.cs" />
+    <Compile Include="EventQueue\FIFOQueue.cs" />
+    <Compile Include="EventQueue\FIFOQueue\ErrorEventArgs.cs" />
+    <Compile Include="EventQueue\FIFOQueue\FIFOQueue_Queue.cs" />
+    <Compile Include="EventQueue\FIFOQueue\FIFOQueue_Thread.cs" />
+    <Compile Include="EventQueue\FIFOQueue\Task.cs" />
+    <Compile Include="EventQueue\FIFOQueue\_TaskThread.cs" />
+    <Compile Include="ExecutionHelper.cs" />
     <Compile Include="FontSerializationHelper.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="NetworkUtility.cs" />
@@ -84,6 +91,7 @@
     <Compile Include="SystemTime.cs" />
     <Compile Include="TimeoutAction.cs" />
     <Compile Include="TypeConverters.cs" />
+    <Compile Include="Wallpaper.cs" />
     <Compile Include="XMLHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

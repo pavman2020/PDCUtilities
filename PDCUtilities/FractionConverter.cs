@@ -124,7 +124,7 @@ namespace PDCUtility
                     dReturn = dWhole + dReturn; // add whole number
                                                 // and fractional part and we're done.
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     dReturn = 0;
                 }
@@ -136,7 +136,7 @@ namespace PDCUtility
                 {
                     dReturn = System.Convert.ToDecimal(whole + dec);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     // bad input so return 0.
                     dReturn = 0;

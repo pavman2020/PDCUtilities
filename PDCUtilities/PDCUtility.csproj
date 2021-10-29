@@ -57,7 +57,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -79,12 +82,17 @@
     <Compile Include="EventQueue\FIFOQueue\Task.cs" />
     <Compile Include="EventQueue\FIFOQueue\_TaskThread.cs" />
     <Compile Include="ExecutionHelper.cs" />
+    <Compile Include="ExecutionTimers.cs" />
     <Compile Include="FontSerializationHelper.cs" />
     <Compile Include="FractionConverter.cs" />
     <Compile Include="Math.cs" />
+    <Compile Include="NetworkAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="NetworkUtility.cs" />
     <Compile Include="PatternMatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceHelper.cs" />
     <Compile Include="SignificantFigures.cs" />
     <Compile Include="Sorting.cs" />
     <Compile Include="StackTraceHelper.cs" />
@@ -92,6 +100,7 @@
     <Compile Include="SystemTime.cs" />
     <Compile Include="TimeoutAction.cs" />
     <Compile Include="TypeConverters.cs" />
+    <Compile Include="UI\UI.cs" />
     <Compile Include="Wallpaper.cs" />
     <Compile Include="XMLHelper.cs" />
   </ItemGroup>

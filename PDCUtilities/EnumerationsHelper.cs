@@ -60,7 +60,6 @@ namespace PDCUtility
 
             if (!type.IsEnum)
                 throw new ArgumentException("ToEnumValue<T>(): Must be of enum type", "T");
-
             foreach (object val in System.Enum.GetValues(type))
                 try
                 {
@@ -72,7 +71,7 @@ namespace PDCUtility
                     if (str.Equals(enumerationDescription, StringComparison.OrdinalIgnoreCase))
                         return (T)val;
                 }
-                catch (System.Exception ex) {  }
+                catch (Exception) { }
 
             throw new ArgumentException("ToEnumValue<T>(): Invalid description for enum " + type.Name, "enumerationDescription");
         }

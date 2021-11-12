@@ -10,7 +10,7 @@ using System.ComponentModel;
 
 namespace PDCUtility
 {
-    public class UI
+    public partial class UI
     {
         public static void AlignMiddles(Control c1, Control c2)
         {

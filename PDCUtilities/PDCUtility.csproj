@@ -43,6 +43,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
@@ -100,6 +101,7 @@
     <Compile Include="SystemTime.cs" />
     <Compile Include="TimeoutAction.cs" />
     <Compile Include="TypeConverters.cs" />
+    <Compile Include="UI\BlurPanel.cs" />
     <Compile Include="UI\UI.cs" />
     <Compile Include="Wallpaper.cs" />
     <Compile Include="XMLHelper.cs" />
